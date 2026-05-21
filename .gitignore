@@ -1,0 +1,26 @@
+# Secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+
+# Random text drafts that may contain leaked keys
+*.txt
+
+# Backups
+*.bak
+*.bak.*
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cargo (future CUDA path)
+miner-cuda/target/
